@@ -1,4 +1,3 @@
-#!/usr/bin/env python
 import requests
 import enum
 from typing import NamedTuple
@@ -84,7 +83,7 @@ def inputData():
 	if city == None  or state == None or city == "" or  state == "":
 		print("Invalid City or State. Please Provide the correct details")
 		print("Eg: Harrison, New Jersey")
-		main()
+		startGame()
 		return
 
 	return city,state
@@ -92,14 +91,13 @@ def inputData():
 def startGame():
 
 	city, state = inputData()
-	weatherInfo = weatherAPI(city, state)
+	weatherInfo = getWeatherInfo(city, state)
 	print("Weather Info: \n", weatherInfo)
 
 def parseConfigData():
+	print("Parsing")
 
-
-
-if __name__ == '__main__': 
+if __name__ == '__main__':
 	parseConfigData()
 	startGame()
 
