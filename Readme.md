@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-
 S.W.E.A.T.H.E.R  APP
 
 
@@ -15,6 +13,6 @@ LIGHT COAT                  35-55               TRUE            [CLEARSKY, RAINY
 COMFORTABLE SHOES           25-90               FALSE           [CLEARSKY]
 HEAVY COAT                  0-40                TRUE            [RAINY, SNOW]
 SNOW BOOTS                  0-35                TRUE            [SNOW]
-=======
+
+
 ![Capture](https://user-images.githubusercontent.com/30177434/114344866-3b6b3b80-9b7e-11eb-810a-d9188c4bd736.PNG)
->>>>>>> c7527d25b81978f20310877f36af5bbbaec367e4
